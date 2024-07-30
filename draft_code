@@ -1,0 +1,23 @@
+from django.shortcuts import render, get_object_or_404
+from .models import WordQuiz, GrammarQuiz
+
+def home(request):
+    return render(request, 'quizzes/home.html')
+
+def word_quiz(request):
+    quizzes = WordQuiz.objects.all()
+    return render(request, 'quizzes/word_quiz.html', {'quizzes': quizzes})
+
+def grammar_quiz(request):
+    quizzes = GrammarQuiz.objects.all()
+    return render(request, 'quizzes/grammar_quiz.html', {'quizzes': quizzes})
+
+def check_answer(request, quiz_type, quiz_id):
+    quiz_model = WordQuiz if quiz_type == 'word' else GrammarQuiz
+    quiz = get_object_or_404(quiz_model, pk=quiz_id)
+    selected_option = request.POST.get('option')
+    if selected_option == quiz.correct_option:
+        result = 'Correct!'
+    else:
+        result = 'Incorrect!'
+    return render(request, 'quizzes/result.html', {'quiz': quiz, 'result': result})
