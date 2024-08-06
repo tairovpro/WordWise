@@ -1,0 +1,28 @@
+[
+    {
+        "question_id": 1,
+        "question": "What is the synonym of Good?",
+        "choices": ["Bad", "Worst", "Red", "Nice"],
+        "correct_answers": ["Nice"]
+    },
+    {
+        "question_id": 2,
+        "question": "What is the antonym of Bad?",
+        "choices": ["Terrible", "Awful", "Great", "Terrifying"],
+        "correct_answers": ["Great"]
+    },
+    {
+        "question_id": 3,
+        "question": "What ?",
+        "choices": [""],
+        "correct_answers": [""]
+    },
+    {
+        "question_id": 4,
+        "question": "What ?",
+        "choices": [""],
+        "correct_answers": [""]
+        
+    }
+
+]
