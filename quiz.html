@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Wisely</h1>
+        <form action="{{ url_for('result') }}" method="post">
+            {% for i, question in enumerate(questions) %}
+                <div class="question">
+                    <h3>{{ question['question'] }}</h3>
+                    {% for option in question['options'] %}
+                        <label>
+                            <input type="radio" name="question_{{ i }}" value="{{ option }}">
+                            {{ option }}
+                        </label><br>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
