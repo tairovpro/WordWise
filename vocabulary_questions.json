@@ -1,0 +1,52 @@
+[
+    {
+        "question": "The aural component of balance is critical for postural control during ambulation. Aural means related to the…",
+        "options": ["Eye", "Ear", "Nose", "Mouth"],
+        "answer": "Ear"
+    },
+    {
+        "question": "The old man was benevolent with his fortune. Benevolent means…",
+        "options": ["Secretive", "Stingy", "Kind", "Careful"],
+        "answer": "Kind"
+    },
+    {
+        "question": "The extra dirt was a key buttress to the foundation. Buttress means…",
+        "options": ["Limiting factor", "Support", "Overwhelming condition", "Obstacle"],
+        "answer": "Support"
+    },
+    {
+        "question": "The new policy aims to mitigate the risks associated with the project. Mitigate means…",
+        "options": ["Exacerbate", "Reduce", "Ignore", "Increase"],
+        "answer": "Reduce"
+    },
+    {
+        "question": "The scientist presented a novel theory on the origin of the universe. Novel means…",
+        "options": ["Old", "Innovative", "Familiar", "Obscure"],
+        "answer": "Innovative"
+    },
+    {
+        "question": "Her ability to persist through difficulties is admirable. Persist means…",
+        "options": ["Stop", "Continue", "Forget", "Abandon"],
+        "answer": "Continue"
+    },
+    {
+        "question": "The artist’s work was characterized by its avant-garde style. Avant-garde means…",
+        "options": ["Traditional", "Experimental", "Simple", "Outdated"],
+        "answer": "Experimental"
+    },
+    {
+        "question": "The committee was pleased with the comprehensive nature of the report. Comprehensive means…",
+        "options": ["Incomplete", "Detailed", "Confusing", "Brief"],
+        "answer": "Detailed"
+    },
+    {
+        "question": "The project required a thorough analysis to understand its implications. Thorough means…",
+        "options": ["Superficial", "Detailed", "Brief", "Hasty"],
+        "answer": "Detailed"
+    },
+    {
+        "question": "The researcher provided empirical evidence to support her claims. Empirical means…",
+        "options": ["Theoretical", "Based on observation", "Abstract", "Speculative"],
+        "answer": "Based on observation"
+    }
+]

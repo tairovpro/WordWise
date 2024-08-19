@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Choose the antonym for 'generous':",
+        "options": [
+            "Stingy",
+            "Kind",
+            "Benevolent",
+            "Friendly"
+        ],
+        "answer": "Stingy"
+    },
+    {
+        "question": "Which of the following is the antonym of 'brave'?",
+        "options": [
+            "Cowardly",
+            "Heroic",
+            "Valiant",
+            "Courageous"
+        ],
+        "answer": "Cowardly"
+    },
+    {
+        "question": "Select the antonym for 'expand':",
+        "options": [
+            "Contract",
+            "Increase",
+            "Grow",
+            "Enlarge"
+        ],
+        "answer": "Contract"
+    },
+    {
+        "question": "The antonym of 'obvious' is:",
+        "options": [
+            "Clear",
+            "Evident",
+            "Hidden",
+            "Apparent"
+        ],
+        "answer": "Hidden"
+    },
+    {
+        "question": "Choose the antonym for 'optimistic':",
+        "options": [
+            "Pessimistic",
+            "Hopeful",
+            "Confident",
+            "Positive"
+        ],
+        "answer": "Pessimistic"
+    },
+    {
+        "question": "What is the antonym of 'ancient'?",
+        "options": [
+            "Modern",
+            "Old",
+            "Archaic",
+            "Primeval"
+        ],
+        "answer": "Modern"
+    },
+    {
+        "question": "Select the antonym for 'reduce':",
+        "options": [
+            "Decrease",
+            "Lessen",
+            "Increase",
+            "Minimize"
+        ],
+        "answer": "Increase"
+    },
+    {
+        "question": "The antonym of 'complex' is:",
+        "options": [
+            "Simple",
+            "Complicated",
+            "Intricate",
+            "Difficult"
+        ],
+        "answer": "Simple"
+    },
+    {
+        "question": "Choose the antonym for 'scarce':",
+        "options": [
+            "Plentiful",
+            "Rare",
+            "Limited",
+            "Insufficient"
+        ],
+        "answer": "Plentiful"
+    },
+    {
+        "question": "What is the antonym of 'rigid'?",
+        "options": [
+            "Flexible",
+            "Stiff",
+            "Unbending",
+            "Hard"
+        ],
+        "answer": "Flexible"
+    }
+]
+
+

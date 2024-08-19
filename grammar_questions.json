@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Identify the correct sentence:",
+        "options": [
+            "She don't like pizza.",
+            "She doesn't like pizza.",
+            "She does like pizza.",
+            "She do like pizza."
+        ],
+        "answer": "She doesn't like pizza."
+    },
+    {
+        "question": "Which of the following is a past participle?",
+        "options": [
+            "Running",
+            "Ran",
+            "Run",
+            "Runs"
+        ],
+        "answer": "Run"
+    },
+    {
+        "question": "Choose the correct verb to complete the sentence: \"He ____ to the store every day.\"",
+        "options": [
+            "go",
+            "goes",
+            "gone",
+            "going"
+        ],
+        "answer": "goes"
+    },
+    {
+        "question": "Which sentence uses the correct form of 'there', 'their', or 'they're'?",
+        "options": [
+            "They're going to the movies.",
+            "There going to the movies.",
+            "Their going to the movies.",
+            "Thier going to the movies."
+        ],
+        "answer": "They're going to the movies."
+    },
+    {
+        "question": "Select the sentence with proper subject-verb agreement:",
+        "options": [
+            "The dogs barks loudly.",
+            "The dog bark loudly.",
+            "The dogs bark loudly.",
+            "The dog barks loudly."
+        ],
+        "answer": "The dogs bark loudly."
+    },
+    {
+        "question": "Which word correctly completes the sentence: \"If I ____ you, I would apologize.\"",
+        "options": [
+            "was",
+            "were",
+            "am",
+            "is"
+        ],
+        "answer": "were"
+    },
+    {
+        "question": "Which sentence is punctuated correctly?",
+        "options": [
+            "I can't believe it's already 3 o'clock!",
+            "I cant believe its already 3 oclock!",
+            "I cant believe it's already 3 o'clock.",
+            "I can't believe its already 3 o'clock."
+        ],
+        "answer": "I can't believe it's already 3 o'clock!"
+    },
+    {
+        "question": "Which of the following is a conjunction?",
+        "options": [
+            "Quickly",
+            "And",
+            "Happiness",
+            "Because"
+        ],
+        "answer": "And"
+    },
+    {
+        "question": "Choose the correct article for the sentence: \"She is ____ honest person.\"",
+        "options": [
+            "a",
+            "an",
+            "the",
+            "none"
+        ],
+        "answer": "an"
+    },
+    {
+        "question": "What is the correct form of the verb in this sentence: \"They ____ already finished their homework.\"",
+        "options": [
+            "has",
+            "have",
+            "had",
+            "is"
+        ],
+        "answer": "have"
+    }
+]
