@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Load questions from a JSON file
 def load_questions():
-    with open('questions.json') as f:
+    with open('questions.json', encoding='utf-8') as f:
         return json.load(f)
 
 questions = load_questions()
