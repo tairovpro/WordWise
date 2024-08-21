@@ -15,9 +15,11 @@
             </div>
             <div class="options">
                 {% for option in question['options'] %}
+                <div class="radio-container">
                 <label>
                     <input type="radio" name="answer" value="{{ option }}" required> {{ option }}
                 </label><br>
+                </div>
                 {% endfor %}
             </div>
             <button type="submit" class="btn">Next</button>
