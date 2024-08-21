@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>WordWise</title>
     <style>
-        body {
-            background-color: blue;
-            color: white;
+        h1 {
+            font-size: 50px;
+            margin-top: 15px;
+        }
+        body{
+            background-color: rgb(244, 165, 76);
+            color: rgb(255, 255, 255);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,28 +23,42 @@
             text-align: center;
         }
         .btn {
+            display: block;
             padding: 10px 20px;
-            background-color: #fff;
-            color: blue;
+            width: 60%;
+            background: #007bff;
+            color: #ffffff;
             border: none;
             border-radius: 5px;
             font-size: 18px;
-            cursor: pointer;
             margin-top: 20px;
-            display: block;
             margin-bottom: 10px;
+            cursor: pointer;
         }
         .btn:hover {
-            background-color: #ddd;
+            background: #0056b3;
         }
+        .quiz-selections {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            margin-bottom: 5px;
+        }
+        img {
+            margin: 0;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>WordWise</h1>
-        <a href="{{ url_for('start', category='vocabulary') }}" class="btn">Vocabulary Quiz</a>
-        <a href="{{ url_for('start', category='antonyms') }}" class="btn">Antonyms Quiz</a>
-        <a href="{{ url_for('start', category='grammar') }}" class="btn">Grammar Quiz</a>
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="WordWise Logo" width="150" height="150">
+        <div class="quiz-selections">
+            <a href="{{ url_for('start', category='vocabulary') }}" class="btn">Vocabulary Quiz</a>
+            <a href="{{ url_for('start', category='antonyms') }}" class="btn">Antonyms Quiz</a>
+            <a href="{{ url_for('start', category='grammar') }}" class="btn">Grammar Quiz</a>
+        </div>
     </div>
 </body>
 </html>
