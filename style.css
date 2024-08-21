@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: blue; /* Set a solid blue background */
-    color: white; /* Change text color to white for contrast */
+    background: url(books.png);
+    /* background-color: rgb(244, 165, 76); */
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +12,7 @@ body {
 }
 
 .container {
-    background: #0000ff;
+    background: #20c12d;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -30,19 +31,38 @@ h1 {
 
 label {
     display: block;
+    margin: 0px 0px 10px 60px;
+}
+
+div.options .radio-container {
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+/* Style the label */
+.radio-container label {
+    margin-left: 8px; /* Space between radio button and label text */
+}
+
+/* Optional: Align text */
+.radio-container label {
+    display: inline-block;
+    text-align: center;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
     background: #007bff;
-    color: #0000ff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    margin-bottom: 3px;
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: #673ab7;
 }
