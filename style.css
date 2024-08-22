@@ -16,7 +16,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 80%;
+    width: 55%;
     max-width: 800px; /* Increased width to accommodate 10 questions */
     text-align: center;
 }
